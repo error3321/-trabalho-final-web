@@ -68,3 +68,8 @@ Lançar notas e frequência
 Comunicados diários 
 Notificações e justificar ausência 
 Renovação de matrícula
+
+Título: Projeto Informicro 
+Descrição:  É uma empresa de internet, em Santo Antônio do Retiro, dedicada a oferecer conexões estáveis e acessíveis para residências e empresas. O objetivo do site é agir como suporte ágil, conectando o futuro cliente às informações sobre a loja. 
+Principais funcionalidades: Divulgação de serviços, produtos, planos e da loja. Agendamento de serviços(por meio de redirecionamento whatsapp). Informações sobre os planos e produtos. 
+Figma: https://www.figma.com/design/KQiMQKDWnITw90B6M7cptU/Sem-t%C3%ADtulo?node-id=0-1&t=iLcZHQ9WZg9yC2gN-1
