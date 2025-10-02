@@ -393,3 +393,7 @@ body {
         margin-left: 0;
     }
 }
+
+.link-product {
+    text-decoration: none;
+}
