@@ -397,3 +397,84 @@ body {
 .link-product {
     text-decoration: none;
 }
+
+.rc-handle {
+    background-color: #004999;
+}
+
+.kv-grid-table {
+    width: 100%;
+    border-collapse: collapse; 
+    font-size: 14px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+/* Estilo para todas as células (cabeçalho e dados) */
+.kv-grid-table th, .kv-grid-table td {
+    border: 1px solid #dee2e6; 
+    padding: 8px 12px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+/* Estilo do Cabeçalho (Linha dos Títulos) */
+.kv-grid-table thead th {
+    background-color: #f1f1f1; 
+    color: #495057; 
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Links de Ordenação no Cabeçalho */
+.kv-grid-table thead th a {
+    color: #007bff; 
+    text-decoration: none;
+    display: block;
+}
+
+/* Ícones de ordenação e filtro */
+.kv-grid-table .filter-icon {
+    margin-left: 5px;
+    color: #007bff;
+}
+
+/* Estilo da Linha dos Filtros */
+.filters td {
+    padding: 5px 12px;
+    background-color: #e9ecef; 
+}
+
+/* Estilo dos campos de input/select na linha de filtro */
+.filters input[type="text"], .filters select {
+    width: 100%;
+    padding: 4px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+/* Efeito Hover (passar o mouse sobre as linhas de dados) */
+.kv-grid-table tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Estilo para a badge "Encerrado" */
+.badge-encerrado {
+    display: inline-block;
+    padding: 4px 8px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    border-radius: 0.25rem;
+    color: #fff;
+    background-color: #6c757d; 
+}
+
+/* Estilo do ícone de Ações (Visualizar) */
+.btn-acao {
+    color: #007bff; 
+    font-size: 16px;
+    cursor: pointer;
+}
+

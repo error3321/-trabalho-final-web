@@ -19,9 +19,91 @@
     </header>
 
 
-    <footer class="footer">
-    </footer>
+    <table class="kv-grid-table">
+    <thead>
+        <tr>
+            <th style="width: 5%;">#</th>
+            <th style="width: 10%;"><a href="#">Id</a></th>
+            <th style="width: 35%;"><a href="#">Tipo <i class="fas fa-sort-down filter-icon"></i></a></th>
+            <th style="width: 20%;">Localização</th>
+            <th style="width: 20%;"><a href="#">Data Abertura <i class="fas fa-sort-up filter-icon"></i></a></th>
+            <th style="width: 10%;"><a href="#">Status <i class="fas fa-sort-down filter-icon"></i></a></th>
+            <th style="width: 5%;">Ações</th>
+        </tr>
+        <tr class="filters">
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td>
+                <select>
+                    <option value=""></option>
+                    <option value="33">33 - Técnico...</option>
+                </select>
+            </td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td>
+                <select>
+                    <option value=""></option>
+                    <option value="Encerrado" selected>Encerrado</option>
+                    <option value="Aberto">Aberto</option>
+                </select>
+            </td>
+            <td></td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>131130</td>
+            <td>33 - Técnico - Falta justificada e solicitação de avaliação em 2ª chamada</td>
+            <td>coordenador do curso</td>
+            <td>18/06/25 23:35:26</td>
+            <td><span class="badge-encerrado">Encerrado</span></td>
+            <td><i class="fas fa-eye btn-acao"></i></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>101306</td>
+            <td>33 - Técnico - Falta justificada e solicitação de avaliação em 2ª chamada</td>
+            <td>coordenador do curso</td>
+            <td>25/11/24 08:15:34</td>
+            <td><span class="badge-encerrado">Encerrado</span></td>
+            <td><i class="fas fa-eye btn-acao"></i></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>73541</td>
+            <td>53 - Técnico - Renovação de matrícula fora do prazo</td>
+            <td>Servidor do Registro Escolar</td>
+            <td>08/03/24 12:47:04</td>
+            <td><span class="badge-encerrado">Encerrado</span></td>
+            <td><i class="fas fa-eye btn-acao"></i></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>102040</td>
+            <td>58 - Técnico - Falta - Notificação de ausência</td>
+            <td>coordenador de curso</td>
+            <td>02/12/24 22:00:38</td>
+            <td><span class="badge-encerrado">Encerrado</span></td>
+            <td><i class="fas fa-eye btn-acao"></i></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>66560</td>
+            <td>58 - Técnico - Falta - Notificação de ausência</td>
+            <td>coordenador de curso</td>
+            <td>31/01/24 17:48:12</td>
+            <td><span class="badge-encerrado">Encerrado</span></td>
+            <td><i class="fas fa-eye btn-acao"></i></td>
+        </tr>
+    </tbody>
+</table>
 
+
+    <footer class="footer"></footer>
+
+    <script src="../js/script.js"></script>
 </body>
 
 </html>
